@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mercados - Mercadex</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f2f6f9;
+            color: #2c3e50;
+            margin: 0;
+        }
+        header {
+            background: linear-gradient(90deg, #00b894, #55efc4);
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .content {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            line-height: 1.6;
+        }
+        h3 {
+            color: #0984e3;
+            border-bottom: 2px solid #dfe6e9;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        p, ul {
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-top: 30px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+        }
+        .quiz {
+            background: #ffffff;
+            border: 1px solid #ccc;
+            padding: 25px;
+            border-radius: 12px;
+            max-width: 800px;
+            margin: 40px auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #00cec9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #00b894;
+        }
+        footer {
+            background-color: #00b894;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mercadex</h1>
+    <h2>Explorando los Mercados</h2>
+</header>
+
+<div class="content">
+    <h3>Definición de Mercados</h3>
+    <p>Los mercados son el ámbito donde se encuentran demandantes interesados en adquirir lo que los ofertantes desean vender. Además, es el área donde los compradores y vendedores se relacionan y negocian de forma directa o indirecta.</p>
+
+    <h3>Elementos del mercado</h3>
+    <ul>
+        <li><strong>Mercancía:</strong> Bienes y servicios producidos.</li>
+        <li><strong>Demanda:</strong> El deseo y la capacidad de comprar de los consumidores.</li>
+        <li><strong>Oferta:</strong> El deseo y la capacidad de vender de los empresarios.</li>
+        <li><strong>Precio:</strong> Valor monetario de los bienes y servicios.</li>
+    </ul>
+
+    <h3>Clases de mercado</h3>
+    <ul>
+        <li><strong>Según el volumen transado:</strong> Mayorista y minorista.</li> 
+        <li><strong>Según la duración:</strong> Permanentes y temporales.</li>
+        <li><strong>Según el aspecto legal:</strong> Formal, informal e ilegal.</li>
+        <li><strong>Según el espacio:</strong> Interno y externo.</li>
+        <li><strong>Mercado Negro:</strong> Transacciones clandestinas.</li>
+        <li><strong>De capitales:</strong> Donde participan inversionistas y ahorristas.</li>
+        <li><strong>De divisas:</strong> Compra y venta de monedas extranjeras.</li>
+    </ul>
+
+    <h3>Mercado Perfecto e Imperfecto</h3>
+    <p><strong>Mercado Perfecto:</strong> Es aquel donde existen muchos compradores y vendedores, productos homogéneos, libre entrada y salida, y completa información.</p>
+    <p><strong>Mercado Imperfecto:</strong> Es aquel donde alguna de las condiciones del mercado perfecto no se cumple. Sus tipos principales son:</p>
+    <ul>
+        <li><strong>Monopolio:</strong> Un solo vendedor controla el mercado.</li>
+        <li><strong>Oligopolio:</strong> Pocos vendedores dominan el mercado.</li>
+        <li><strong>Monopsonio:</strong> Un solo comprador concentra la demanda.</li>
+        <li><strong>Oligopsonio:</strong> Pocos compradores tienen el control sobre la demanda.</li>
+        <li><strong>Competencia Monopolística:</strong> Muchos vendedores con productos diferenciados.</li>
+    </ul>
+</div>
+
+<div class="quiz">
+    <h3>Cuestionario sobre Mercados</h3>
+    <form id="quizForm">
+        <p>1. ¿Cuál es la función principal de un mercado?</p>
+        <input type="text" name="q1" required />
+
+        <p>2. ¿Qué elemento del mercado refleja lo que el consumidor desea comprar?</p>
+        <input type="text" name="q2" required />
+
+        <p>3. ¿Cómo se llama la relación entre oferta y demanda?</p>
+        <input type="text" name="q3" required />
+
+        <p>4. ¿Qué clase de mercado es internacional?</p>
+        <input type="text" name="q4" required />
+
+        <p>5. ¿Qué tipo de mercado tiene productos ilegales?</p>
+        <input type="text" name="q5" required />
+
+        <p>6. ¿Qué mercado involucra monedas extranjeras?</p>
+        <input type="text" name="q6" required />
+
+        <p>7. ¿Qué tipo de mercado existe cuando hay un solo vendedor?</p>
+        <input type="text" name="q7" required />
+
+        <p>8. ¿Qué tipo de competencia tiene productos similares pero no iguales?</p>
+        <input type="text" name="q8" required />
+
+        <p>9. ¿Qué tipo de mercado permite acceso libre y muchos compradores?</p>
+        <input type="text" name="q9" required />
+
+        <h4>Casos para identificar el tipo de mercado:</h4>
+        <p>10. Una empresa controla el 100% de la electricidad en un país.</p>
+        <input type="text" name="q10" required />
+
+        <p>11. Muchas marcas de champú se venden con diferentes envases y publicidad.</p>
+        <input type="text" name="q11" required />
+
+        <p>12. Dos aerolíneas dominan las rutas nacionales de un país.</p>
+        <input type="text" name="q12" required />
+
+        <button type="button" onclick="submitQuiz()">Enviar Respuestas</button>
+    </form>
+    <p id="result"></p>
+</div>
+
+<footer>
+    <p>Proyecto de Economía - 2025</p>
+</footer>
+
+<script>
+    function submitQuiz() {
+        let score = 0;
+        const answers = {
+            q1: "intercambio",
+            q2: "demanda",
+            q3: "precio",
+            q4: "externo",
+            q5: "mercado negro",
+            q6: "de divisas",
+            q7: "monopolio",
+            q8: "competencia monopolística",
+            q9: "mercado perfecto",
+            q10: "monopolio",
+            q11: "competencia monopolística",
+            q12: "oligopolio"
+        };
+        const form = document.forms['quizForm'];
+        for (let q in answers) {
+            let user = form[q].value.toLowerCase();
+            if (user.includes(answers[q])) {
+                score++;
+            }
+        }
+        document.getElementById('result').innerText = `Tuviste ${score} respuestas correctas de 12.`;
+    }
+</script>
+
+</body>
+</html>
